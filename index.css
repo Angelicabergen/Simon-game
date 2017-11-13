@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    margin-top: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons{
+    display: block;
+}
+#start,#strictMode{
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 125%;
+    margin-top: 4vh;
+}
+#start:hover,#strictMode:hover {
+  color: black;
+  background-color: white;
+}
+#strictMode.hover{
+    color: black;
+    background-color: white;
+}
+
+#blue{
+    border:10px solid #3C6E71;
+    border-radius: 100%;
+}
+#blue.hover{
+    background-color: #3C6E71;
+}
+#blue:hover{
+    background-color: #3C6E71;
+}
+#green{
+    border:10px solid #70AE6E;
+    border-radius: 100%;
+}
+#green.hover{
+    background-color: #70AE6E
+}
+#green:hover{
+    background-color: #70AE6E
+}
+#red{
+    border:10px solid #F6625D;
+    border-radius: 100%;
+}
+#red.hover{
+    background-color: #F6625D;
+}
+#red:hover{
+    background-color: #F6625D;
+}
+#yellow{
+    border: 10px  solid #F2E174;
+    border-radius: 100%;
+}
+#yellow.hover{
+    background-color: #F2E174;
+}
+#yellow:hover{
+    background-color: #F2E174;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: black;
+}
+#gameBoard{
+    width: 600px;
+    display: inline-flex;
+    margin-top: 50px;
+}
+table{
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10%;
+}
+p{
+    border: 2px solid white;
+    display: inline-block;
+    vertical-align: middle;
+    height: 140px;
+    margin-top: 180px;
+    margin-left: 60px;
+    border-radius: 20%;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
