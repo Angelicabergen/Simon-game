@@ -70,6 +70,7 @@ $(document).ready(function () {
             if (strict === true) {
                 alert("Game Over!");
                 newGame();
+                $("#strictMode").removeClass("hover");
             }
             else{
                 alert("Try again!");
